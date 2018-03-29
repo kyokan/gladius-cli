@@ -1,0 +1,46 @@
+@import 'card';
+@import 'home';
+@import 'infoCard';
+@import 'masthead';
+@import 'mastheadContentSplit';
+
+@import 'variables';
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: $off-white;
+  font-family: 'overpass', sans-serif !important;
+  color: $black;
+  height: 100%;
+}
+
+.text-muted {
+  color: $grey-text;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 0 !important;
+
+  input, textarea {
+    margin-bottom: 1.25rem;
+
+    &.is-invalid {
+      margin-bottom: 0;
+    }
+  }
+
+  .invalid-feedback {
+    max-height: 1rem;
+  }
+}

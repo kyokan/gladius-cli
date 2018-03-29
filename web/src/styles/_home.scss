@@ -1,0 +1,24 @@
+@import 'variables';
+
+.home__content-row {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home__content-title {
+  color: $grey-text;
+  font-size: 0.8rem;
+}
+
+.home__content-value {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: $black;
+}
+
+.home__node-status {
+  text-transform: capitalize;
+}

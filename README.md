@@ -15,6 +15,9 @@ Command line interface to control the node daemon.
 - Acquire 1 Ether on the [Ropsten testnet](http://faucet.ropsten.be:3001/) (or go [here](https://blog.bankex.org/how-to-buy-ethereum-using-metamask-ccea0703daec) if you're using Metamask)
 - Run `gladius-node init` and fill out the requested
 information (use the same email that you applied for the beta with)
+- Run `npm run install` to install packages and build files
+- Run `npm run sreve` to run the server on `localhost:5000`
+- Navigate to `localhost:5000` and enter your PGP passphrase to view the Node information
 
 ## Commands (`gladius-node <option>`)
 ### `init`
