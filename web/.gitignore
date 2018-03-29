@@ -56,10 +56,16 @@ typings/
 
 # dotenv environment variables file
 .env
-nodeFile.json
 
-# Node Manager beta files
-/index.html
-/index.css
-/web.js
-/assets/
+*.iml
+.idea
+dist
+.DS_Store
+
+# VSCode files
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

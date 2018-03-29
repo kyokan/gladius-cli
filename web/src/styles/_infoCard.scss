@@ -1,0 +1,25 @@
+@import 'variables';
+
+.gladius-info-card {
+  border-radius: 4px;
+  border-top: 4px solid $turquoise;
+  padding: 1rem;
+  background: $white;
+  @include shadowed();
+}
+
+.gladius-info-card--borderless {
+  border: 0;
+}
+
+.gladius-info-card__content {
+  background: $white;
+  font-size: 1.5rem;
+  color: $black;
+}
+
+.gladius-info-card__title {
+  background: $white;
+  color: $grey-text;
+  font-size: 0.8rem;
+}
