@@ -1,0 +1,24 @@
+@import 'variables';
+
+.gladius-card {
+  border-radius: 4px;
+  border: 1px solid $grey-border;
+  @include shadowed();
+}
+
+.gladius-card--borderless {
+  border: 0;
+}
+
+.gladius-card__content {
+  background: $white;
+}
+
+.gladius-card__title {
+  background: $tabular-header;
+  border-bottom: 1px solid $grey-border;
+  color: $grey-text;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}

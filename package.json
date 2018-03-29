@@ -4,6 +4,8 @@
   "description": "The Gladius node command line interface, an entry point for the Gladius system",
   "main": "index.js",
   "scripts": {
+    "install": "npm --prefix web install && npm --prefix web run build",
+    "serve": "serve -tSnl",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -29,6 +31,7 @@
     "external-ip": "^2.0.3",
     "kbpgp": "^2.0.77",
     "node-json-rpc": "0.0.1",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "serve": "^6.5.3"
   }
 }

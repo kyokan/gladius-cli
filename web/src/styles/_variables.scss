@@ -1,0 +1,26 @@
+$base : 12px;
+$black: #102452;
+$true-black: #000000;
+$grey: #f0f4fa;
+$off-white: #fafbfc;
+$white: white;
+$turquoise: #31C7C3;
+
+$bold: 500;
+$light: 200;
+$normal: 300;
+
+$blue-text: #258ffc;
+$grey-border: #e0e7f1;
+$grey-text: #647799;
+$light-grey-text: #A2B5D2;
+
+$blue-button: #198cff;
+
+$blue-row: #fafcff;
+
+$tabular-header: #f0f5fa;
+
+@mixin shadowed() {
+  box-shadow: 0 2px 4px 0 rgba(10, 32, 82, 0.04);
+}
