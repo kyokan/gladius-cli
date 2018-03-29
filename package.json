@@ -26,6 +26,7 @@
   "homepage": "https://github.com/gladiusio/gladius-cli#readme",
   "dependencies": {
     "axios": "^0.16.2",
+    "express": "^4.16.3",
     "external-ip": "^2.0.3",
     "kbpgp": "^2.0.77",
     "node-json-rpc": "0.0.1",
